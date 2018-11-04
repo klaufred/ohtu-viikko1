@@ -40,3 +40,10 @@ jar {
 // For testing
 apply plugin: "jacoco" 
 
+// For Codecov
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
