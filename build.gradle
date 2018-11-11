@@ -53,3 +53,8 @@ jacocoTestReport {
         })
     }
 }
+
+
+
+apply plugin: 'checkstyle'
+
